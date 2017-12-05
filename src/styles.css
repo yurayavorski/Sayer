@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    color: #333;
+    font-family: Arial;
+    font-size: 35px;
+}
+body {
+    margin: 0;
+}
+header {
+    background-color: #0e1d3c;
+    color: white;
+    font-family: "Open Sans Semibold", Arial;
+    padding: 50px 0 60px 40px;
+}
+header h1, header h4 {
+    margin: 0;
+}
+header h1 {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+header h4 {
+    font-size: 25px;
+}
+
+.btn-floating {
+    font-size: 32px;
+}
+.header-with-button h1 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 20px;
+    width: calc(100% - 110px);
+}
+.header-button {
+    background-color: #313464 !important;
+    height: 70px !important;
+    width: 70px !important;
+}
+.header-button i {
+    line-height: 62px !important;
+    font-size: 38px;
+}
+.no-elements {
+    text-align: center;
+    margin-top: 60px;
+    color: #666;
+}
+.clr {
+    display: block;
+    clear: both;
+}

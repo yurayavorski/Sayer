@@ -1,0 +1,26 @@
+<header>
+    <h1>{{title}}</h1>
+    <h4>{{subTitle}}</h4>
+</header>
+<div id="main">
+    <ul id="task-list" *ngIf="tasks.length">
+        <li *ngFor="let task of tasks" (click)="openTask(task);">
+            <div class="task-inner">
+                <span>{{task.name}}</span>
+                <div class="comment-count" *ngIf="task.comments.length">
+                    <span>
+                        {{task.comments.length}}
+                    </span>
+                </div>
+                <div class="clr"></div>
+            </div>
+            <div class="delete-task" (click)="delete(task)">Delete</div>
+        </li>
+    </ul>
+    <div class="no-elements" *ngIf="!tasks.length">
+        there are no items =(
+    </div>
+    <div id="add-task-wrapper">
+        <a routerLink="new-task" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">+</i></a>
+    </div>
+</div>

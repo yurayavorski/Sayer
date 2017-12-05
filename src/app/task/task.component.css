@@ -1,0 +1,47 @@
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+#main {
+    padding-bottom: 110px;
+}
+#comment-list ul {
+    margin-top: 15px;
+}
+#comment-list li{
+    border-bottom: 1px solid #e6e6e6;
+    padding: 25px 0 65px 40px;
+}
+#comment-list li:last-child {
+    border-bottom: none;
+}
+.comment-photo {
+    background-color: grey;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    margin-right: 40px;
+    vertical-align: top;
+}
+.comment {
+    color: #666;
+    display: inline-block;
+    width: calc(100% - 150px);
+}
+form {
+    background-color: #e6e6e6;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0 13px 12px;
+}
+form input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 27px 10px 25px 20px;
+    height: auto;
+    width: calc(100% - 160px);
+    margin: 0 30px 0 0;
+}

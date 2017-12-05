@@ -1,0 +1,24 @@
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 40px;
+    }
+}
+form {
+    width: 98%;
+    margin-top: 60px;
+    padding-left: 40px;
+}
+form input {
+    width: calc(100% - 112px);
+    margin-right: 20px;
+    height: auto !important;
+    padding: 0px 0 16px 12px;
+}
+form .btn-floating {
+    height: 70px !important;
+    width: 70px !important;
+    line-height: normal;
+}
+form .btn-floating {
+    background-color: #0e1d3c !important;
+}

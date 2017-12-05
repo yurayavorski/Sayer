@@ -1,0 +1,10 @@
+<header class="header-with-button">
+  <a type="submit" class="btn-floating btn-large waves-effect waves-light header-button" routerLink="" routerLinkActive="active"><i class="material-icons">&#8592;</i></a>
+  <h1>{{title}}</h1>
+</header>
+<div id="main">
+  <form action="" (submit)="add($event, taskName)">
+    <input type="text" placeholder="New item" #taskName required>
+    <button type="submit" class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">></i></button>
+  </form>
+</div>
